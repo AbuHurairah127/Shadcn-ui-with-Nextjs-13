@@ -75,6 +75,6 @@ And the `components.json` file will be like:
 - But once the next js compiler is turned of and started again it will check all the code again and this time it will **ignore** the `app` directory present in `src` directory.
 - Now an error will be received `404|Page not found`. Now you might have noticed that the `app` directory at root has only globals.css file no `page.tsx` file. Means that your application has no page.Thus, it causes an error.
 
-##### Yoou can use this configuration with zero errors if you are not using `src` directory
+##### You can use this configuration with zero errors if you are not using `src` directory
 
 #### Best of luck for your next project! Stay Blessed.
