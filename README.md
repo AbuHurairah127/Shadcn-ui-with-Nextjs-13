@@ -44,4 +44,27 @@ And use the following configuration for **Shadcn ui** if you used the above give
 **Next js 13** Project is created along with the standard configurations **_as given above._**
 
 But at the time of installation of shadcn ui the configuration is used is 👇🏻:
+
 ![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Shadcn%20intallation.PNG)
+
+**Note:** The main wrong configuration used here is **_wrong placing of globals.css file_**:
+
+    `app/globals.css`
+
+After the configurations you will get the folder structure same as given below:
+
+![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Folder%20Structure%20with%20wrong%20config.PNG)
+
+And the `components.json` file will be like:
+
+![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Folder%20Structure%20with%20wrong%20config.PNG)
+
+### ERROR EXPLANATION
+
+- First the project is created and started next js server.
+- The next js compiler will read all of your code and will get only one `app` directory in the `src` directory.
+- Now the Shadcn ui Library is intalled with **wrong configuration** and the next js server is still running will not take care of the new `app` directory at the root.
+- But once the next js compiler is turned of and started again it will check all the code again and this time it will **ignore** the `app` directory present in `src` directory.
+- Now an error will be received `404|Page not found`. Now you might have noticed that the `app` directory at root has only globals.css file no `page.tsx` file. Means that your application has no page.Thus, it causes an error.
+
+#### Best of luck for your next project! Stay Blessed.
