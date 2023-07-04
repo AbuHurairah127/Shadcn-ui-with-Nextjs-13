@@ -39,6 +39,14 @@ And use the following configuration for **Shadcn ui** if you used the above give
 
     `src/app/globals.css`
 
+After successful installation of next js and shadcn ui Project folder structure will look like:
+
+![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/correct%20folder%20structure.PNG)
+
+and components.json file will look like:
+
+![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Shadcn%20intallation%20correct%20component.png)
+
 ## Incorrect way of installation and errors:
 
 **Next js 13** Project is created along with the standard configurations **_as given above._**
