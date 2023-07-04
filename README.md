@@ -65,7 +65,7 @@ After the configurations you will get the folder structure same as given below:
 
 And the `components.json` file will be like:
 
-![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Folder%20Structure%20with%20wrong%20config.PNG)
+![Shadcn wrong configuration](https://github.com/AbuHurairah127/Shadcn-ui-with-Nextjs-13/blob/main/images/Shadcn%20intallation%20wrong%20component.json.PNG)
 
 ### ERROR EXPLANATION
 
